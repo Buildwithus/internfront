@@ -1,38 +1,99 @@
-.App {
+table,
+th,
+td {
+  border: solid;
+  text-align: center;
+  width: 14%;
+}
+
+table {
+  width: 95%;
+  border-collapse: collapse;
+}
+
+tr:hover {
+  background-color: coral;
+}
+
+th {
+  background-color: rgb(199, 174, 225);
+  padding: 15px;
+}
+
+td {
+  padding: 8px;
+}
+
+.table-center {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+}
+
+.center {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.delete-btn {
+  padding: 6px 15px;
+  background-color: red;
+  border: none;
   color: white;
+  border-radius: 5px;
 }
 
-.App-link {
-  color: #61dafb;
+.delete-btn:hover {
+  background-color: rgb(231, 52, 52);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.update-btn {
+  background-color: rebeccapurple;
+  padding: 6px 15px;
+  margin-right: 10px;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+
+.update-btn:hover {
+  background-color: rgb(145, 84, 206);
+}
+
+.inpt-section {
+  width: 50%;
+  padding: 8px;
+  margin-top: 30px;
+  border: solid rebeccapurple;
+  border-radius: 5px;
+}
+
+h4 {
+  text-align: center;
+  display: inline;
+}
+
+.last-section {
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.prev-btn {
+  background-color: rebeccapurple;
+  padding: 6px 15px;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  float: left;
+
+}
+
+.next-btn {
+  background-color: rebeccapurple;
+  padding: 6px 15px;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  float: right;
+
 }
